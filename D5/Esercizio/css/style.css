@@ -1,0 +1,126 @@
+/* IMPOSTAZIONI GENERALI */
+ body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    font-size: 1.2rem;
+    color: #393d41;
+ }
+
+ #titolo {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 10px;
+ }
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: black;
+}
+
+/* MAIN */
+main {
+    text-align: center;
+}
+
+/*ARTICLE*/
+article {
+    padding: 40px 40px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+#partiamo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #f04c2f;
+    border: 0;
+    border-radius: 5%;
+    padding: 10px 40px;
+    text-decoration: none;
+    }
+
+/*SECTION 1*/
+section {
+    margin: 20px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 10px;}
+
+.article_paragraph {
+    margin-bottom: 30px;
+}
+
+#foto_notebook {
+    width: 75%;
+    border-radius: 50%;
+    margin: 25px 0px
+}
+
+.box_bottom {
+    border: 1px solid #dee1e3;
+}
+
+.photo_bottom {
+    width: 100%;
+}
+.paragraph_bottom {
+    padding: 0px 20px 20px 20px;
+    font-size: 0.8em;
+}
+/* ASIDE */
+aside {
+    background-color: #e22d0e;
+    padding: 50px 0px;
+    color: white;
+}
+h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+#cit {
+    font-style: italic;
+}
+#ceo {
+    font-size: small;
+}
+
+/* FOOTER */
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding: 25px;
+}
+footer h2 {
+}
+ul {
+    font-size: 0.8em;
+}
+
+a {
+    color: #c8e7f0;
+    padding-top: 10px;
+}
+
+ul {
+    padding: 25px 30px;
+}
+
+footer p {
+    font-size: 0.6em; 
+    padding-bottom: 30px;
+    border-top: 1px solid ;
+    padding-top: 30px;
+    margin-right: 6em;
+    margin-left: 6em;
+}   
