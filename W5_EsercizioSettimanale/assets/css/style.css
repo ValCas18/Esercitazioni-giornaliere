@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral&display=swap");
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Spectral', serif;*/
+
+html {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  color: #191919;
+}
+
+header {
+  background-color: #ffc017;
+}
+
+.logo1 {
+  cursor: pointer;
+}
+
+.headerUp {
+  border-bottom: 1px solid #191919;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navLinks {
+  display: flex;
+  gap: 30px;
+  font-size: small;
+}
+
+.navLinks span {
+  cursor: pointer;
+}
+
+.navBtn button {
+  background-color: #191919;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 20px;
+  border: transparent;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.headerDown {
+  border-bottom: 1px solid #191919;
+  display: flex;
+}
+
+.headerLeft {
+  margin: 80px 50px;
+}
+
+.headerMain {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.headerText1 {
+  font-weight: 400;
+}
+
+.headerText1 h1 {
+  font-size: 106px;
+}
+
+.headerText2 {
+  font-size: 24px;
+}
+
+.headerMain button {
+  background-color: #191919;
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  border: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.articleCenter {
+  padding: 50px 50px;
+  border-bottom: 1px solid #19191948;
+}
+
+.trendingMedium {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.trending {
+  width: 33.333%;
+}
+.trendingCard {
+  display: flex;
+}
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  cursor: pointer;
+}
+
+.artCard {
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+}
+
+.logoRound {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.logoSquare {
+  width: 20px;
+  height: 20px;
+}
+
+.artCard h4 {
+  font-weight: bold;
+  font-size: small;
+}
+
+.infoCard h2 {
+  font-weight: bold;
+}
+
+.numberCard {
+  font-size: 32px;
+  opacity: 0.2;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.trendingArticles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+
+span {
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.bookmark {
+  margin-left: auto;
+}
+
+.bottomPage {
+  display: flex;
+}
+section {
+  padding: 50px 50px;
+  max-width: 65%;
+}
+
+.sectionCard {
+  display: flex;
+  margin-block-end: 3em;
+  justify-content: space-between;
+}
+
+.sectionCard h4 {
+  font-weight: bold;
+  font-size: small;
+}
+.sectionCard h2 {
+  font-weight: bold;
+  font-size: large;
+}
+
+.sectionText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 70%;
+}
+
+.sectionNameAge {
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+}
+
+.sectionPill {
+  background-color: lightgrey;
+  font-weight: bold;
+  border-radius: 500px;
+  padding: 0.5rem;
+}
+.sectionImg {
+  height: 135px;
+}
+
+aside {
+  border: 2px solid black;
+}
