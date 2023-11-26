@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #742305;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #fef7e2;
+  width: 80%;
+  min-width: 320px;
+  min-height: 160px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.navSmall {
+  background-color: #ffdf7e;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+.navBig {
+  background-color: #ffdf7e;
+  border-radius: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.beeImg {
+  height: 50px;
+}
